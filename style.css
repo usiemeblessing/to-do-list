@@ -9,17 +9,13 @@
 body {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	background-color: #c92a2a;
-	/* background-image: url(to-go-bg.png);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat; */
 	line-height: 1.5;
 }
 
 .container {
 	border: 1px solid black;
 	width: 90%;
-	max-width: 34em;
+	max-width: 544px;
 	position: absolute;
 	transform: translate(-50%, -50%);
 	top: 50%;
@@ -29,19 +25,19 @@ body {
 #new-task {
 	position: relative;
 	background-color: #ffffff;
-	padding: 1.8em 1.25em;
+	padding: 28px 20px;
 	border-radius: 0.3em;
 	box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
 	display: grid;
 	grid-template-columns: 9fr 3fr;
-	gap: 1em;
+	gap: 16px;
 }
 
 #new-task input {
-	font-size: 1em;
+	font-size: 16px;
 	border: none;
 	border-bottom: 2px solid black;
-	padding: 0.8em 0.5em;
+	padding: 13px 8px;
 	color: #111111;
 	font-weight: 500;
 }
@@ -53,12 +49,12 @@ body {
 
 #new-task button {
 	font-weight: 500;
-	font-size: 1em;
+	font-size: 16px;
 	background-color: #c92a2a;
 	color: #ffffff;
 	outline: none;
 	border: none;
-	border-radius: 0.3em;
+	border-radius: 5px;
 	cursor: pointer;
 }
 
