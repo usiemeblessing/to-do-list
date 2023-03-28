@@ -26,7 +26,7 @@ addButton.addEventListener("click", () => {
 	<span id = "taskname">
 	${document.querySelector("#new-task input").value}
 	</span>
-
+	<button class="edit">📝</button>
 	<button class="delete">🗑</button>
 </div>
 		`;
